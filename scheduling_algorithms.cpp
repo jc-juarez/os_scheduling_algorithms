@@ -47,7 +47,7 @@ namespace os_scheduling {
             
         }
 
-        // Efficiecy = (1 - (fails / size)) * 100
+        // Efficiency = (1 - (fails / size)) * 100
         double efficiency = (1.0 - (double(fails) / double(process_string.size()))) * 100.0; 
         return {fails, efficiency}; 
 
@@ -103,7 +103,7 @@ namespace os_scheduling {
 
         } 
 
-        // Efficiecy = (1 - (fails / size)) * 100
+        // Efficiency = (1 - (fails / size)) * 100
         double efficiency = (1.0 - (double(fails) / double(process_string.size()))) * 100.0; 
         return {fails, efficiency};
 
