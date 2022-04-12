@@ -1,4 +1,4 @@
-# Process Scheduling Algorithms🧶
+# Process Scheduling Algorithms 🧶
 
 Operating Systems Process Scheduling Algorithms Simulation Implementation on **C++ in GNU/Linux**. To run this program first clone the repository:
 
