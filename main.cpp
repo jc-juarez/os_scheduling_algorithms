@@ -32,7 +32,8 @@ int main() {
     do {
 
         // Generate Random String of Processes
-        std::string random_string{};
+        static std::string random_string{};
+        random_string = ""
         for(int i = 0; i < STRING_SIZE; ++i) {
             char random_char = 'a' + distr(gen);
             random_string += random_char;
